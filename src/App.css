@@ -36,3 +36,93 @@
     transform: rotate(360deg);
   }
 }
+
+/* .calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 4fr;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.display {
+  grid-column: 1 / -1;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.previous-operand {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.current-operand {
+  font-size: 36px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+
+.keypad button {
+  background-color: #ddd;
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.keypad button:hover {
+  background-color: #eee;
+}
+
+.keypad button:active {
+  background-color: #e0e0e0;
+}
+
+.keypad button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 153, 209, 0.5);
+}
+
+.keypad .operator {
+  background-color: #50a3a2;
+  color: white;
+}
+
+.keypad .operator:hover {
+  background-color: #408d90;
+}
+
+.keypad .equals {
+  grid-column: 4 / -1;
+  background-color: #50a3a2;
+  color: white;
+}
+
+.keypad .equals:hover {
+  background-color: #408d90;
+}
+
+.keypad .clear {
+  grid-column: 1 / -1;
+  background-color: #f22626;
+  color: white;
+}
+
+.keypad .clear:hover {
+  background-color: #e61f1f;
+} */
